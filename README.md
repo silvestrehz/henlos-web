@@ -1,36 +1,97 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Henlos Web
 
-## Getting Started
+Interface web para sistema de orçamentos via WhatsApp, desenvolvida com Next.js, TypeScript e Tailwind CSS.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Axios
+- React Hook Form
+
+## 📋 Pré-requisitos
+
+- Node.js >= 18.x
+- npm ou yarn
+- [Henlos API](https://github.com/silvestrehz/henlos-api) rodando localmente
+
+## 🔧 Instalação
+
+1. Clone o repositório
+
+```bash
+git clone https://github.com/silvestrehz/henlos-web
+cd henlos-web
+```
+
+2. Instale as dependências
+
+```bash
+npm install
+```
+
+3. Configure as variáveis de ambiente
+
+```bash
+cp .env.example .env.local
+```
+
+4. Inicie o servidor de desenvolvimento
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📦 Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- `npm run dev`: Desenvolvimento
+- `npm run build`: Build
+- `npm start`: Produção
+- `npm run lint`: Linting
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌲 Estrutura do Projeto
 
-## Learn More
+```
+src/
+├── app/              # Páginas e rotas
+├── components/       # Componentes React
+├── services/         # Serviços e API
+├── types/           # Types TypeScript
+└── lib/             # Utilitários
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 🌿 Branches
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- `main`: Produção
+- `staging`: Homologação
+- `develop`: Desenvolvimento
+- `feature/*`: Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📝 Commits
 
-## Deploy on Vercel
+Seguimos o padrão Conventional Commits:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `feat`: Nova feature
+- `fix`: Correção de bug
+- `docs`: Documentação
+- `style`: Formatação
+- `refactor`: Refatoração
+- `test`: Testes
+- `chore`: Manutenção
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🔗 Links Relacionados
+
+- [Backend - Henlos API](https://github.com/silvestrehz/henlos-api)
+
+## 🤝 Contribuindo
+
+1. Fork o projeto
+2. Crie sua feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'feat: add amazing feature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
